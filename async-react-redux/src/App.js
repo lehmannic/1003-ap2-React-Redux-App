@@ -1,12 +1,14 @@
 import React from "react";
+
 import "./App.css";
+
+import SunDataDisplay from "./components/SunDataDisplay";
 
 function App() {
   return (
     <div className='App'>
-      <div className='container'>
-        <h1>hello world</h1>
-      </div>
+      <h1>React API APP</h1>
+      <SunDataDisplay />
     </div>
   );
 }
