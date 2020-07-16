@@ -1,0 +1,45 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  text-align: center;
+
+  background-image: url(./images/jasper-boer-1fUu0dratoM-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.data-container {
+  margin: 16px 8px;
+  padding: 16px;
+}
+
+.container {
+  /* border: 1px solid rgb(210, 210, 210); */
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  margin: 16px 8px;
+  padding: 16px;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* <- here it is */
+}
+
+.sun-data {
+  display: flex;
+  justify-content: space-evenly;
+}
